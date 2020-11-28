@@ -132,4 +132,6 @@ document.getElementById("btnTinhTienTip").addEventListener("click",function(){
     document.getElementById("txtThongBaoTienTip").className="alert alert-danger d-block";
     document.getElementById("txtThongBaoTienTip").innerHTML = money;
 });
-    
+    function addUsers(){
+        console.log("User added");
+    }
